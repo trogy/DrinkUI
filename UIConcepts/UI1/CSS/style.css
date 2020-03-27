@@ -13,14 +13,15 @@ transform: translateY(5%);
 .AJAXContent{
   transform: translateY(2.2%);
   margin: auto;
-padding: 10px;
-width: 87vw;
-height: 75vh;
+  padding: 10px;
+  width: 87vw;
+  height: 75vh;
   background-color: #686868;
   background-size: 89vw 86vh;
   flex: auto;
-    box-shadow: 0px 0px 30px grey;
-    border-radius: 25px;
+  box-shadow: 0px 0px 30px grey;
+  border-radius: 25px;
+  overflow: auto;
 }
 .title{
   padding-top: 5px;
@@ -38,24 +39,26 @@ height: 75vh;
   font-size: 100px;
 }
 .main-bt-left{
-background-color: #F9F9F9;
-border: none;
-border-radius: 25px;
-width: 42vw;
-height: 75vh;
-position: absolute;
-left: 10px;
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 75vh;
+  position: absolute;
+  left: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
 }
 .main-bt-right{
-background-color: #F9F9F9;
-border: none;
-border-radius: 25px;
-width: 42vw;
-height: 75vh;
-position: absolute;
-right: 10px;
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 75vh;
+  position: absolute;
+  right: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
 }

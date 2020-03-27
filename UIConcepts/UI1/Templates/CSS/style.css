@@ -1,0 +1,219 @@
+/* GENERAL/GLOBAL */
+body{
+  background-color: #EAEAEA;
+    position: relative;
+}
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.container{
+transform: translateY(5%);
+  width: 90vw;
+  height: 90vh;
+  background-color: #FEFFFE;
+  margin: auto;
+  box-shadow: 0px 0px 30px grey;
+}
+.AJAXContent{
+  overflow: auto;
+  transform: translateY(2.2%);
+  margin: auto;
+  padding: 10px;
+  width: 87vw;
+  height: 75vh;
+  background-color: #686868;
+  background-size: 89vw 86vh;
+  flex: auto;
+  box-shadow: 0px 0px 30px grey;
+  border-radius: 25px;
+}
+.title{
+  padding-top: 5px;
+  margin: auto;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 50px;
+}
+.button-title{
+  color: #628395;
+  padding-top: 5px;
+  margin: auto;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 100px;
+}
+/* MAIN MENU */
+.main-bt-left{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 75vh;
+  position: absolute;
+  left: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+}
+.main-bt-right{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 75vh;
+  position: absolute;
+  right: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+}
+/* DISPENSE MENU */
+.disp-bt-left{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 52vh;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+}
+.disp-bt-right{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 52vh;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+}
+.disp-bt-top{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 87vw;
+  height: 20vh;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+}
+/* SINGLE MENU */
+.single-flexwrap{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.single-bt-1-div{
+  flex: 0 0 auto;
+}
+.single-bt-2-div{
+  flex: 0 0 auto;
+}
+.single-bt-3-div{
+  flex: 0 0 auto;
+}
+.single-bt-4-div{
+  flex: 0 0 auto;
+}
+.single-bt-5-div{
+  flex: 0 0 auto;
+}
+.single-bt-6-div{
+  flex: 0 0 auto;
+}
+.single-bt-1{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 72vh;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+  margin: 5px;
+}
+.single-bt-2{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 72vh;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+  margin: 5px;
+}
+.single-bt-3{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 72vh;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+}
+.single-bt-4{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 72vh;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+  margin: 5px;
+}
+.single-bt-5{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 72vh;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+  margin: 5px;
+}
+.single-bt-6{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 72vh;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: auto;
+  margin: 5px;
+}
