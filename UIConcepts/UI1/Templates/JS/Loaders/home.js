@@ -8,3 +8,4 @@ $(document).ready(function(){
         $("#AJAXContent").load("Pages/Configure.php");
     });
 });
+console.log('home.js load success');

@@ -51,7 +51,7 @@ transform: translateY(5%);
   margin: auto;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 .button-title{
   color: #628395;
@@ -59,7 +59,7 @@ transform: translateY(5%);
   margin: auto;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 100px;
+  font-size: 70px;
 }
 /* MAIN MENU */
 .main-bt-left{
@@ -70,8 +70,6 @@ transform: translateY(5%);
   height: 75vh;
   position: absolute;
   left: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
 }
 .main-bt-right{
@@ -82,8 +80,6 @@ transform: translateY(5%);
   height: 75vh;
   position: absolute;
   right: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
 }
 /* DISPENSE MENU */
@@ -96,8 +92,6 @@ transform: translateY(5%);
   position: absolute;
   left: 10px;
   bottom: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
 }
 .disp-bt-right{
@@ -109,8 +103,6 @@ transform: translateY(5%);
   position: absolute;
   right: 10px;
   bottom: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
 }
 .disp-bt-top{
@@ -123,8 +115,6 @@ transform: translateY(5%);
   left: 10px;
   right: 10px;
   top: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
 }
 /* SINGLE MENU */
@@ -132,20 +122,19 @@ transform: translateY(5%);
   background-color: #F9F9F9;
   border: none;
   border-radius: 25px;
-  width: 254vw;
+  width: 256vw;
   height: 20vh;
   position: absolute;
-  left: 10px;
-  right: 10px;
+  left: 15px;
+  right: 15px;
   top: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
 }
 .single-flexwrap{
   height: 52vh;
   position: absolute;
   bottom: 10px;
+  padding-right: 10px;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -175,8 +164,6 @@ transform: translateY(5%);
   border-radius: 25px;
   width: 42vw;
   height: 51vh;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
   margin: 5px;
 }
@@ -186,8 +173,6 @@ transform: translateY(5%);
   border-radius: 25px;
   width: 42vw;
   height: 51vh;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
   margin: 5px;
 }
@@ -197,9 +182,8 @@ transform: translateY(5%);
   border-radius: 25px;
   width: 42vw;
   height: 51vh;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
+  margin: 5px;
 }
 .single-bt-4{
   background-color: #F9F9F9;
@@ -207,8 +191,6 @@ transform: translateY(5%);
   border-radius: 25px;
   width: 42vw;
   height: 51vh;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
   margin: 5px;
 }
@@ -218,8 +200,6 @@ transform: translateY(5%);
   border-radius: 25px;
   width: 42vw;
   height: 51vh;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
   margin: 5px;
 }
@@ -229,8 +209,41 @@ transform: translateY(5%);
   border-radius: 25px;
   width: 42vw;
   height: 51vh;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   overflow: auto;
   margin: 5px;
+}
+/* CONFIG MENU */
+.conf-bt-left{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 52vh;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  overflow: auto;
+}
+.conf-bt-right{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 42vw;
+  height: 52vh;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  overflow: auto;
+}
+.conf-bt-top{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 25px;
+  width: 87vw;
+  height: 20vh;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  overflow: auto;
 }
